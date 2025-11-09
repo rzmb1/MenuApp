@@ -1,0 +1,19 @@
+# no hidden files in root
+.*
+# no node_modules
+node_modules
+# no docs
+docs
+# no tests
+test*
+!test-data
+# no documentation
+*.md
+# no coverage data
+coverage
+# no .rest files
+*.rest
+
+# nothing from the client but only the build directory
+_clients
+!_clients/react-client/build

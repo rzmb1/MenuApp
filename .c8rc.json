@@ -1,0 +1,4 @@
+{
+    "all": true,
+    "exclude": ["_clients","test-data","tests","coverage","tests-mocha"]
+}

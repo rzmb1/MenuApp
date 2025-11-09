@@ -1,0 +1,105 @@
+
+# Domain Modell
+
+`responsible: Rubens Zambelli`
+
+```plantuml
+
+class Benutzer
+{
+    Vorname 
+    Nachname
+    Email
+    Passwort
+}
+
+enum AbbonementStatuts {
+  "registriert"
+  "angemeldet, aktiv, bezahlt"  
+  "nicht angemeldet" 
+}
+
+enum MenüplanStatus {
+  "Entwurf" 
+  "in bearbeitung"
+  "freigegeben",
+  "veröffentlicht, aktiv"
+  "inaktiv"
+  "abgebrochen"  
+}
+
+enum BestellungStatus {
+  "bestellt" 
+  "abgebrochen"
+  "nicht angegeben" 
+}
+
+class Küchenchef
+{
+
+}
+
+class Koch
+{
+
+}
+
+class Gericht
+{
+    Name
+    Vegitarisch
+    Allergene
+    Beschreibung
+    Gang
+}
+
+class Menüplan
+{
+    Zeitraum
+    Tage
+}
+
+class Statistik
+{
+    Bestellte Gerichte
+    Gekochte Gerichte
+    Gegessene Gerichte
+    Gespendete Gerichte
+    Weggeworfene Gerichte
+    Datum  
+}
+
+class Jahresanmeldung {
+    Jahr
+}
+
+class Mahlzeit {
+    Datum
+}
+
+class Bestellung {
+    Datum
+    Anmerkungen
+}
+
+Benutzer <|-- Gast
+Benutzer <|-- Koch
+Benutzer <|-- Schüler
+Benutzer <|-- Lehrer
+Koch <|-- Küchenchef 
+Menüplan "*" -- "1" Küchenchef : erstellt
+Menüplan "*" -- "1" Küchenchef : ändert
+Menüplan "*" -- "1" Küchenchef : löscht
+Menüplan "*" -- "1" Küchenchef : gibt frei
+
+Jahresanmeldung "*" -- "1" Benutzer
+Jahresanmeldung "*" -- "1" AbbonementStatuts
+MenüplanStatus "1" -- "*" Menüplan
+Menüplan "1" *-- "0 .. n" Mahlzeit
+Mahlzeit "1" *-- "1 .. 12" Gericht
+Benutzer "1" -- "*" Bestellung
+Bestellung "*" -- " 1 " Gericht
+BestellungStatus "1" -- "*" Bestellung
+
+Gericht - Statistik
+```

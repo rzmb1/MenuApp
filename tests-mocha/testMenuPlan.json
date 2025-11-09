@@ -1,0 +1,547 @@
+{
+    "createdBy": "648e9534064e41dfdefa450b",
+    "approvedBy": "648e9534a0cfc084d7b4c62c",
+    "state": "published",
+    "days": {
+      "Freitag": [
+        {
+          "name": "Salatbuffet",
+          "tags": [
+            "Salat",
+            "Vorspeise"
+          ],
+          "image": "6453eb746cc5e7c1534445f1"
+        },
+        {
+          "name": "Rahm-Kren-Suppe",
+          "tags": [
+            "Hauptspeise",
+            "Suppe",
+            "Kren",
+            "Vegetarisch",
+            "Menü A"
+          ],
+          "image": "6453e454265186d68cbd6bf8",
+          "statistics": {
+            "ordered": 189,
+            "served": 166,
+            "wasted": 17
+          }
+        },
+        {
+          "name": "Weiße Rübensuppe mit gerösteten Haselnüssen",
+          "tags": [
+            "Vorspeise",
+            "Suppe",
+            "G (Milch)",
+            "Menü A"
+          ],
+          "image": "6453e180265186d68cbd6be6",
+          "statistics": {
+            "ordered": 215,
+            "served": 187,
+            "wasted": 10
+          }
+        },
+        {
+          "name": "Erdbeer-Rhabarber-Kuchen",
+          "tags": [
+            "Nachspeise",
+            "Erdberre",
+            "Rharbarber",
+            "Kuchen",
+            "Vegetarisch",
+            "Menü A"
+          ],
+          "image": "6453e4e1265186d68cbd6bfc",
+          "statistics": {
+            "ordered": 84,
+            "served": 77,
+            "wasted": 1
+          }
+        },
+        {
+          "name": "Grammelsterz",
+          "tags": [
+            "Hauptspeise",
+            "Grammel",
+            "Menü B"
+          ],
+          "image": "6453e019265186d68cbd6bdc",
+          "statistics": {
+            "ordered": 109,
+            "served": 79,
+            "wasted": 6
+          }
+        },
+        {
+          "name": "Rote-Rüben-Suppe",
+          "tags": [
+            "Vorspeise",
+            "Rüben",
+            "Suppe",
+            "G (Milch)",
+            "Vegetarisch",
+            "Menü B"
+          ],
+          "image": "6453e09c265186d68cbd6be0",
+          "statistics": {
+            "ordered": 140,
+            "served": 77,
+            "wasted": 36
+          }
+        },
+        {
+          "name": "Topfenstrudel mit Osterbrot und Vanillesauce",
+          "tags": [
+            "Nachspeise",
+            "Topfen",
+            "Strudel",
+            "G (Milch)",
+            "A (Glutenhaltiges Getreide)",
+            "Menü B"
+          ],
+          "image": "6453ddc8265186d68cbd6bd0",
+          "statistics": {
+            "ordered": 145,
+            "served": 116,
+            "wasted": 15
+          }
+        }
+      ],
+      "Mittwoch": [
+        {
+          "name": "Salatbuffet",
+          "tags": [
+            "Salat",
+            "Vorspeise"
+          ],
+          "image": "6453eb746cc5e7c1534445f1"
+        },
+        {
+          "name": "Süßkartoffeln mit Forellen-Quinoa-Gemüse-Fülle",
+          "tags": [
+            "Hauptspeise",
+            "Kartoffeln",
+            "Fisch",
+            "D (Fische)",
+            "Vegetarisch",
+            "Menü A"
+          ],
+          "image": "6453dadad7155e9950293c30",
+          "statistics": {
+            "ordered": 132,
+            "served": 114,
+            "wasted": 13
+          }
+        },
+        {
+          "name": "Rote-Rüben-Suppe",
+          "tags": [
+            "Vorspeise",
+            "Rüben",
+            "Suppe",
+            "G (Milch)",
+            "Vegetarisch",
+            "Menü A"
+          ],
+          "image": "6453e09c265186d68cbd6be0",
+          "statistics": {
+            "ordered": 57,
+            "served": 56,
+            "wasted": 0
+          }
+        },
+        {
+          "name": "Erdäpfel-Kaffee-Nusskipferln",
+          "tags": [
+            "Nachspeise",
+            "A (Glutenhaltiges Getreide)",
+            "G (Milch)",
+            "Kartoffeln",
+            "Vegetarisch",
+            "Menü A"
+          ],
+          "image": "6453db5ed7155e9950293c32",
+          "statistics": {
+            "ordered": 85,
+            "served": 47,
+            "wasted": 18
+          }
+        },
+        {
+          "name": "Ragout vom Maibock",
+          "tags": [
+            "Hauptspeise",
+            "Ragout",
+            "Fleisch",
+            "Menü B"
+          ],
+          "image": "6453dcf6265186d68cbd6bcc",
+          "statistics": {
+            "ordered": 218,
+            "served": 177,
+            "wasted": 11
+          }
+        },
+        {
+          "name": "Winterliche Gemüsesuppe",
+          "tags": [
+            "Vorspeise",
+            "Suppe",
+            "Gemüse",
+            "Vegetarisch",
+            "Menü B"
+          ],
+          "image": "6453e3d5265186d68cbd6bf4",
+          "statistics": {
+            "ordered": 94,
+            "served": 65,
+            "wasted": 4
+          }
+        },
+        {
+          "name": "Erdbeer-Holunderblüten-Schnittenn",
+          "tags": [
+            "Nachspeise",
+            "Erdbeeren",
+            "G (Milch)",
+            "Vegetarisch",
+            "Menü B"
+          ],
+          "image": "6453dbc7d7155e9950293c34",
+          "statistics": {
+            "ordered": 84,
+            "served": 61,
+            "wasted": 19
+          }
+        }
+      ],
+      "Dienstag": [
+        {
+          "name": "Salatbuffet",
+          "tags": [
+            "Salat",
+            "Vorspeise"
+          ],
+          "image": "6453eb746cc5e7c1534445f1"
+        },
+        {
+          "name": "Rahm-Kren-Suppe",
+          "tags": [
+            "Hauptspeise",
+            "Suppe",
+            "Kren",
+            "Vegetarisch",
+            "Menü A"
+          ],
+          "image": "6453e454265186d68cbd6bf8",
+          "statistics": {
+            "ordered": 73,
+            "served": 59,
+            "wasted": 2
+          }
+        },
+        {
+          "name": "Weiße Rübensuppe mit gerösteten Haselnüssen",
+          "tags": [
+            "Vorspeise",
+            "Suppe",
+            "G (Milch)",
+            "Menü A"
+          ],
+          "image": "6453e180265186d68cbd6be6",
+          "statistics": {
+            "ordered": 71,
+            "served": 36,
+            "wasted": 14
+          }
+        },
+        {
+          "name": "Karamelldessert mit Cantuccini",
+          "tags": [
+            "Nachspeise",
+            "Karamell",
+            "G (Milch)",
+            "Menü A"
+          ],
+          "image": "6453df51265186d68cbd6bd8",
+          "statistics": {
+            "ordered": 104,
+            "served": 53,
+            "wasted": 25
+          }
+        }
+      ],
+      "Montag": [
+        {
+          "name": "Salatbuffet",
+          "tags": [
+            "Salat",
+            "Vorspeise"
+          ],
+          "image": "6453eb746cc5e7c1534445f1"
+        },
+        {
+          "name": "Penne alla Pizza",
+          "tags": [
+            "Hauptspeise",
+            "Pizza",
+            "A (Glutenhaltiges Getreide)",
+            "Vegetarisch",
+            "Menü A"
+          ],
+          "image": "6453df88265186d68cbd6bda",
+          "statistics": {
+            "ordered": 114,
+            "served": 85,
+            "wasted": 29
+          }
+        },
+        {
+          "name": "Ingwer-Karottensuppe mit Honig",
+          "tags": [
+            "Vorspeise",
+            "Suppe",
+            "Ingwer",
+            "Vegetarisch",
+            "Menü A"
+          ],
+          "image": "6453e2fb265186d68cbd6bf0",
+          "statistics": {
+            "ordered": 158,
+            "served": 135,
+            "wasted": 9
+          }
+        },
+        {
+          "name": "Pink-Panna-cotta auf Vanillecreme",
+          "tags": [
+            "Nachspeise",
+            "Vanille",
+            "G (Milch)",
+            "Menü A"
+          ],
+          "image": "6453e0e6265186d68cbd6be2",
+          "statistics": {
+            "ordered": 149,
+            "served": 89,
+            "wasted": 23
+          }
+        },
+        {
+          "name": "Gespickter Rehrücken",
+          "tags": [
+            "Nachspeise",
+            "Reh",
+            "Menü B"
+          ],
+          "image": "6453e409265186d68cbd6bf6",
+          "statistics": {
+            "ordered": 64,
+            "served": 56,
+            "wasted": 3
+          }
+        },
+        {
+          "name": "Chinakohlsalat mit Hanfmarinade",
+          "tags": [
+            "Vorspeise",
+            "Gesund",
+            "Chinakohl",
+            "Vegetarisch",
+            "Menü B"
+          ],
+          "image": "6453dd72265186d68cbd6bce",
+          "statistics": {
+            "ordered": 66,
+            "served": 46,
+            "wasted": 20
+          }
+        },
+        {
+          "name": "Grammelsterz",
+          "tags": [
+            "Hauptspeise",
+            "Grammel",
+            "Menü C"
+          ],
+          "image": "6453e019265186d68cbd6bdc",
+          "statistics": {
+            "ordered": 114,
+            "served": 112,
+            "wasted": 0
+          }
+        },
+        {
+          "name": "Frühlingsrollen mit Krautsalat",
+          "tags": [
+            "Vorspeise",
+            "Gemüse",
+            "Menü C"
+          ],
+          "image": "6453e25d265186d68cbd6bec",
+          "statistics": {
+            "ordered": 168,
+            "served": 134,
+            "wasted": 21
+          }
+        },
+        {
+          "name": "Topfenstrudel mit Osterbrot und Vanillesauce",
+          "tags": [
+            "Nachspeise",
+            "Topfen",
+            "Strudel",
+            "G (Milch)",
+            "A (Glutenhaltiges Getreide)",
+            "Menü C"
+          ],
+          "image": "6453ddc8265186d68cbd6bd0",
+          "statistics": {
+            "ordered": 154,
+            "served": 102,
+            "wasted": 28
+          }
+        }
+      ],
+      "Donnerstag": [
+        {
+          "name": "Salatbuffet",
+          "tags": [
+            "Salat",
+            "Vorspeise"
+          ],
+          "image": "6453eb746cc5e7c1534445f1"
+        },
+        {
+          "name": "Rahm-Kren-Suppe",
+          "tags": [
+            "Hauptspeise",
+            "Suppe",
+            "Kren",
+            "Vegetarisch",
+            "Menü A"
+          ],
+          "image": "6453e454265186d68cbd6bf8",
+          "statistics": {
+            "ordered": 190,
+            "served": 146,
+            "wasted": 21
+          }
+        },
+        {
+          "name": "Frühlingsrollen mit Krautsalat",
+          "tags": [
+            "Vorspeise",
+            "Gemüse",
+            "Menü A"
+          ],
+          "image": "6453e25d265186d68cbd6bec",
+          "statistics": {
+            "ordered": 163,
+            "served": 132,
+            "wasted": 28
+          }
+        },
+        {
+          "name": "Karamelldessert mit Cantuccini",
+          "tags": [
+            "Nachspeise",
+            "Karamell",
+            "G (Milch)",
+            "Menü A"
+          ],
+          "image": "6453df51265186d68cbd6bd8",
+          "statistics": {
+            "ordered": 178,
+            "served": 176,
+            "wasted": 1
+          }
+        },
+        {
+          "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+          "tags": [
+            "Hauptspeise",
+            "Lachs",
+            "Honig",
+            "M (Senf)",
+            "Menü B"
+          ],
+          "image": "6453e36e265186d68cbd6bf2",
+          "statistics": {
+            "ordered": 84,
+            "served": 48,
+            "wasted": 4
+          }
+        },
+        {
+          "name": "Winterliche Gemüsesuppe",
+          "tags": [
+            "Vorspeise",
+            "Suppe",
+            "Gemüse",
+            "Vegetarisch",
+            "Menü B"
+          ],
+          "image": "6453e3d5265186d68cbd6bf4",
+          "statistics": {
+            "ordered": 131,
+            "served": 130,
+            "wasted": 0
+          }
+        },
+        {
+          "name": "Deftiger Erdäpfeleintopf",
+          "tags": [
+            "Hauptspeise",
+            "Kartoffeln",
+            "Vegetarisch",
+            "Menü C"
+          ],
+          "image": "6453e22d265186d68cbd6bea",
+          "statistics": {
+            "ordered": 103,
+            "served": 53,
+            "wasted": 44
+          }
+        },
+        {
+          "name": "Rote-Rüben-Suppe",
+          "tags": [
+            "Vorspeise",
+            "Rüben",
+            "Suppe",
+            "G (Milch)",
+            "Vegetarisch",
+            "Menü C"
+          ],
+          "image": "6453e09c265186d68cbd6be0",
+          "statistics": {
+            "ordered": 60,
+            "served": 43,
+            "wasted": 0
+          }
+        },
+        {
+          "name": "Topfenstrudel mit Osterbrot und Vanillesauce",
+          "tags": [
+            "Nachspeise",
+            "Topfen",
+            "Strudel",
+            "G (Milch)",
+            "A (Glutenhaltiges Getreide)",
+            "Menü C"
+          ],
+          "image": "6453ddc8265186d68cbd6bd0",
+          "statistics": {
+            "ordered": 130,
+            "served": 92,
+            "wasted": 38
+          }
+        }
+      ]
+    },
+    "startDate": "2022-11-14",
+    "endDate": "2022-11-18"
+  }

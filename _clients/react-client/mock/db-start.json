@@ -1,0 +1,3790 @@
+{
+    "users": [
+        {
+            "_id": "63bae149486f871b9eaa093c",
+            "username": "jeannie.gallagher@chat.my",
+            "age": 98,
+            "firstname": "Nadia",
+            "lastname": "Gallagher",
+            "state": "offline",
+            "gender": "female"
+        },
+        {
+            "_id": "63bae149f87300e3c61a4ef1",
+            "username": "mills.holcomb@chat.my",
+            "age": 21,
+            "firstname": "Wood",
+            "lastname": "Holcomb",
+            "state": "online",
+            "gender": "male"
+        },
+        {
+            "_id": "63bae14957017eee88561f2f",
+            "username": "blankenship.conrad@chat.my",
+            "age": 119,
+            "firstname": "Rowe",
+            "lastname": "Conrad",
+            "state": "offline",
+            "gender": "male"
+        },
+        {
+            "_id": "63bae1491a26c454c70d13cf",
+            "username": "sondra.prince@chat.my",
+            "age": 54,
+            "firstname": "Penelope",
+            "lastname": "Prince",
+            "state": "offline",
+            "gender": "female"
+        },
+        {
+            "_id": "63bae1496147b5994cfc440c",
+            "username": "cruz.mayo@chat.my",
+            "age": 109,
+            "firstname": "Clay",
+            "lastname": "Mayo",
+            "state": "online",
+            "gender": "male"
+        }
+    ],
+    "menuplans": [
+      {
+        "_id": 0,
+        "createdBy": 10,
+        "approvedBy": 4,
+        "state": "published",
+        "days": {
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Warmspeise",
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Gebratenes Karpfenfilet auf Goldrübenpüree",
+              "tags": [
+                "Warmspeise",
+                "Obst",
+                "Kaltspeise",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Weiße Rübensuppe mit gerösteten Haselnüssen",
+              "tags": [
+                "Fleisch",
+                "Kaltspeise",
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokoroulade",
+              "tags": [
+                "Süß",
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Rosa gebratener Rehrücken mit Rote-Rüben-Risotto",
+              "tags": [
+                "Obst",
+                "Gesund",
+                "Fisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erbsen-Spargel-Suppe",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Gesund",
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Gebratenes Karpfenfilet auf Goldrübenpüree",
+              "tags": [
+                "Erdäpfel",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Fisch",
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Glutenfreie Palatschinken vom Blech",
+              "tags": [
+                "Laktose",
+                "Fleisch",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Fleisch",
+                "Warmspeise",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Fleisch",
+                "Gesund",
+                "Erdäpfel",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Grießflammeri mit Holundererdbeeren",
+              "tags": [
+                "Warmspeise",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Glutenfreie Palatschinken vom Blech",
+              "tags": [
+                "Süß",
+                "Gesund",
+                "Menü B",
+                "Nachspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2022-11-14",
+        "endDate": "2022-11-18"
+      },
+      {
+        "_id": 1,
+        "createdBy": 6,
+        "approvedBy": 12,
+        "state": "published",
+        "days": {
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Geschmorter Rehbraten mit Hanfschupfnudeln",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Wildragout mit Eierschwammerln",
+              "tags": [
+                "Erdäpfel",
+                "Kaltspeise",
+                "Fisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Menü B",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Erdäpfel",
+                "Obst",
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Rotweinwachteln",
+              "tags": [
+                "Warmspeise",
+                "Erdäpfel",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Warmspeise",
+                "Laktose",
+                "Gesund",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Warmspeise",
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wildfleischlaibchen im Weizenfladen",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Süß",
+                "Warmspeise",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Menü B",
+                "Vorspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2022-11-21",
+        "endDate": "2022-11-25"
+      },
+      {
+        "_id": 2,
+        "createdBy": 19,
+        "approvedBy": 9,
+        "state": "published",
+        "days": {
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Kalbsbraten",
+              "tags": [
+                "Gesund",
+                "Kaltspeise",
+                "Fleisch",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erbsen-Spargel-Suppe",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokoroulade",
+              "tags": [
+                "Laktose",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wildfleischlaibchen im Weizenfladen",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Marzipanschnitten",
+              "tags": [
+                "Kaltspeise",
+                "Süß",
+                "Menü B",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wildragout mit Eierschwammerln",
+              "tags": [
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Obst",
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erbsen-Spargel-Suppe",
+              "tags": [
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Reindling vom Hochschwabröster",
+              "tags": [
+                "Kaltspeise",
+                "Fisch",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Kaltspeise",
+                "Süß",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2022-11-28",
+        "endDate": "2022-12-02"
+      },
+      {
+        "_id": 3,
+        "createdBy": 8,
+        "approvedBy": 19,
+        "state": "published",
+        "days": {
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Süß",
+                "Laktose",
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Pink-Panna-cotta auf Vanillecreme",
+              "tags": [
+                "Fleisch",
+                "Laktose",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Warmspeise",
+                "Gesund",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Süß",
+                "Laktose",
+                "Obst",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Laktose",
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Kaltspeise",
+                "Warmspeise",
+                "Fisch",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Obst",
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Erdbeer-Rhabarber-Kuchen",
+              "tags": [
+                "Warmspeise",
+                "Erdäpfel",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Zweierlei vom Rind mit Rote-Rüben-Knödeln",
+              "tags": [
+                "Warmspeise",
+                "Laktose",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Obst",
+                "Fisch",
+                "Süß",
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Cupcakes mit Himbeer-Curd",
+              "tags": [
+                "Fisch",
+                "Obst",
+                "Menü B",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Laktose",
+                "Warmspeise",
+                "Erdäpfel",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Grießflammeri mit Holundererdbeeren",
+              "tags": [
+                "Menü C",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2022-12-05",
+        "endDate": "2022-12-09"
+      },
+      {
+        "_id": 4,
+        "createdBy": 19,
+        "approvedBy": 11,
+        "state": "published",
+        "days": {
+          "Donnerstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Zweierlei vom Rind mit Rote-Rüben-Knödeln",
+              "tags": [
+                "Fisch",
+                "Gesund",
+                "Kaltspeise",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Fleisch",
+                "Warmspeise",
+                "Fisch",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Erdbeer-Rhabarber-Kuchen",
+              "tags": [
+                "Gesund",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Obst",
+                "Erdäpfel",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Gesund",
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Grießflammeri mit Holundererdbeeren",
+              "tags": [
+                "Erdäpfel",
+                "Fisch",
+                "Menü B",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Rosa gebratener Rehrücken mit Rote-Rüben-Risotto",
+              "tags": [
+                "Obst",
+                "Süß",
+                "Fisch",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Erdäpfel",
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokolierte Gundelrebenblättchen",
+              "tags": [
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Süß",
+                "Warmspeise",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Süß",
+                "Gesund",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Warmspeise",
+                "Fisch",
+                "Erdäpfel",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Topfenstrudel mit Osterbrot und Vanillesauce",
+              "tags": [
+                "Erdäpfel",
+                "Gesund",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Rosa gebratener Rehrücken mit Rote-Rüben-Risotto",
+              "tags": [
+                "Obst",
+                "Fleisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2022-12-12",
+        "endDate": "2022-12-16"
+      },
+      {
+        "_id": 5,
+        "createdBy": 5,
+        "approvedBy": 10,
+        "state": "published",
+        "days": {
+          "Donnerstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Laktose",
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wildragout mit Eierschwammerln",
+              "tags": [
+                "Laktose",
+                "Warmspeise",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Warmspeise",
+                "Kaltspeise",
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erdäpfel-Vogerlsalat-Suppe",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Reindling vom Hochschwabröster",
+              "tags": [
+                "Obst",
+                "Fisch",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Laktose",
+                "Fleisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Fisch",
+                "Fleisch",
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Fleisch",
+                "Kaltspeise",
+                "Gesund",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Menü C",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rahm-Kren-Suppe",
+              "tags": [
+                "Obst",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Marzipanschnitten",
+              "tags": [
+                "Fisch",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Geschmorter Rehbraten mit Hanfschupfnudeln",
+              "tags": [
+                "Süß",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Kaltspeise",
+                "Fisch",
+                "Obst",
+                "Menü C",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Ingwer-Karottensuppe mit Honig",
+              "tags": [
+                "Fisch",
+                "Süß",
+                "Menü C",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2022-12-19",
+        "endDate": "2022-12-23"
+      },
+      {
+        "_id": 6,
+        "createdBy": 13,
+        "approvedBy": 3,
+        "state": "published",
+        "days": {
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Zweierlei vom Rind mit Rote-Rüben-Knödeln",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Süß",
+                "Kaltspeise",
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Kaiserschmarren mit Karamellnüssen",
+              "tags": [
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Geschmorter Rehbraten mit Hanfschupfnudeln",
+              "tags": [
+                "Gesund",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Fisch",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Geschmorter Rehbraten mit Hanfschupfnudeln",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Ingwer-Karottensuppe mit Honig",
+              "tags": [
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Rotweinwachteln",
+              "tags": [
+                "Warmspeise",
+                "Gesund",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Weiße Rübensuppe mit gerösteten Haselnüssen",
+              "tags": [
+                "Erdäpfel",
+                "Menü B",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Donnerstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Fleisch",
+                "Erdäpfel",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wildragout mit Eierschwammerln",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erdäpfel-Vogerlsalat-Suppe",
+              "tags": [
+                "Gesund",
+                "Kaltspeise",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Erdbeer-Rhabarber-Kuchen",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erbsen-Spargel-Suppe",
+              "tags": [
+                "Fleisch",
+                "Kaltspeise",
+                "Warmspeise",
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Obst",
+                "Warmspeise",
+                "Menü C",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Erdäpfel",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rahm-Kren-Suppe",
+              "tags": [
+                "Gesund",
+                "Fisch",
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Gebackenes Eis auf Beerenragout",
+              "tags": [
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Gebratenes Karpfenfilet auf Goldrübenpüree",
+              "tags": [
+                "Fleisch",
+                "Fisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2022-12-26",
+        "endDate": "2022-12-30"
+      },
+      {
+        "_id": 7,
+        "createdBy": 8,
+        "approvedBy": 3,
+        "state": "published",
+        "days": {
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Warmspeise",
+                "Laktose",
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Kalbsbraten",
+              "tags": [
+                "Obst",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Geschmorter Rehbraten mit Hanfschupfnudeln",
+              "tags": [
+                "Obst",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Obst",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Donnerstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Laktose",
+                "Süß",
+                "Gesund",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Süß",
+                "Fleisch",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Grießflammeri mit Holundererdbeeren",
+              "tags": [
+                "Fleisch",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Erdäpfel",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Rotweinwachteln",
+              "tags": [
+                "Süß",
+                "Obst",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erbsen-Spargel-Suppe",
+              "tags": [
+                "Fleisch",
+                "Laktose",
+                "Warmspeise",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Topfenstrudel mit Osterbrot und Vanillesauce",
+              "tags": [
+                "Süß",
+                "Erdäpfel",
+                "Warmspeise",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Kalbsbraten",
+              "tags": [
+                "Fleisch",
+                "Erdäpfel",
+                "Warmspeise",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Kaiserschmarren mit Karamellnüssen",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Zweierlei vom Rind mit Rote-Rüben-Knödeln",
+              "tags": [
+                "Erdäpfel",
+                "Gesund",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Gesund",
+                "Obst",
+                "Menü C",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokoroulade",
+              "tags": [
+                "Obst",
+                "Menü C",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-01-02",
+        "endDate": "2023-01-06"
+      },
+      {
+        "_id": 8,
+        "createdBy": 6,
+        "approvedBy": 16,
+        "state": "published",
+        "days": {
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Laktose",
+                "Warmspeise",
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Wildfleischlaibchen im Weizenfladen",
+              "tags": [
+                "Kaltspeise",
+                "Fleisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Kaltspeise",
+                "Fisch",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Ingwer-Karottensuppe mit Honig",
+              "tags": [
+                "Erdäpfel",
+                "Laktose",
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokolierte Gundelrebenblättchen",
+              "tags": [
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Laktose",
+                "Fisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Grießflammeri mit Holundererdbeeren",
+              "tags": [
+                "Warmspeise",
+                "Menü B",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wildragout mit Eierschwammerln",
+              "tags": [
+                "Menü C",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Cupcakes mit Himbeer-Curd",
+              "tags": [
+                "Warmspeise",
+                "Laktose",
+                "Menü C",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            }
+          ],
+          "Donnerstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Fisch",
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Fleisch",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Weiße Rübensuppe mit gerösteten Haselnüssen",
+              "tags": [
+                "Erdäpfel",
+                "Kaltspeise",
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Kalbsbraten",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Fisch",
+                "Süß",
+                "Kaltspeise",
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Wildragout mit Eierschwammerln",
+              "tags": [
+                "Obst",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Warmspeise",
+                "Erdäpfel",
+                "Menü C",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Gesund",
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokoroulade",
+              "tags": [
+                "Warmspeise",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Laktose",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Glutenfreie Palatschinken vom Blech",
+              "tags": [
+                "Laktose",
+                "Menü B",
+                "Nachspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-01-09",
+        "endDate": "2023-01-13"
+      },
+      {
+        "_id": 9,
+        "createdBy": 11,
+        "approvedBy": 9,
+        "state": "published",
+        "days": {
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Gesund",
+                "Fisch",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Geschmorter Rehbraten mit Hanfschupfnudeln",
+              "tags": [
+                "Gesund",
+                "Fleisch",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Weiße Rübensuppe mit gerösteten Haselnüssen",
+              "tags": [
+                "Gesund",
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Gebackenes Eis auf Beerenragout",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Warmspeise",
+                "Fleisch",
+                "Menü C",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Laktose",
+                "Süß",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokoroulade",
+              "tags": [
+                "Fisch",
+                "Kaltspeise",
+                "Erdäpfel",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Zweierlei vom Rind mit Rote-Rüben-Knödeln",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Kaiserschmarren mit Karamellnüssen",
+              "tags": [
+                "Menü B",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Warmspeise",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Donnerstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Fisch",
+                "Gesund",
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Warmspeise",
+                "Gesund",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erbsen-Spargel-Suppe",
+              "tags": [
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Obst",
+                "Fisch",
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Wildragout mit Eierschwammerln",
+              "tags": [
+                "Menü C",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Menü C",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rahm-Kren-Suppe",
+              "tags": [
+                "Erdäpfel",
+                "Kaltspeise",
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Süß",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-01-16",
+        "endDate": "2023-01-20"
+      },
+      {
+        "_id": 10,
+        "createdBy": 5,
+        "approvedBy": 7,
+        "state": "published",
+        "days": {
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Süß",
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Gebratenes Karpfenfilet auf Goldrübenpüree",
+              "tags": [
+                "Laktose",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erdäpfel-Vogerlsalat-Suppe",
+              "tags": [
+                "Gesund",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Grießflammeri mit Holundererdbeeren",
+              "tags": [
+                "Obst",
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Geschmorter Rehbraten mit Hanfschupfnudeln",
+              "tags": [
+                "Süß",
+                "Obst",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Cupcakes mit Himbeer-Curd",
+              "tags": [
+                "Warmspeise",
+                "Kaltspeise",
+                "Menü B",
+                "Nachspeise"
+              ]
+            }
+          ],
+          "Donnerstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Erdäpfel",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Gesund",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Rotweinwachteln",
+              "tags": [
+                "Kaltspeise",
+                "Obst",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Gesund",
+                "Laktose",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokoroulade",
+              "tags": [
+                "Süß",
+                "Warmspeise",
+                "Gesund",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Kalbsbraten",
+              "tags": [
+                "Obst",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Ingwer-Karottensuppe mit Honig",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Erdäpfel",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Kaltspeise",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Reindling vom Hochschwabröster",
+              "tags": [
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Kalbsbraten",
+              "tags": [
+                "Kaltspeise",
+                "Warmspeise",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Marzipanschnitten",
+              "tags": [
+                "Obst",
+                "Fleisch",
+                "Laktose",
+                "Menü B",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-01-23",
+        "endDate": "2023-01-27"
+      },
+      {
+        "_id": 11,
+        "createdBy": 16,
+        "approvedBy": 18,
+        "state": "published",
+        "days": {
+          "Donnerstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Fleisch",
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Fisch",
+                "Fleisch",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Obst",
+                "Gesund",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Reindling vom Hochschwabröster",
+              "tags": [
+                "Fisch",
+                "Fleisch",
+                "Süß",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Rotweinwachteln",
+              "tags": [
+                "Gesund",
+                "Fleisch",
+                "Laktose",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Obst",
+                "Gesund",
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Gebackenes Eis auf Beerenragout",
+              "tags": [
+                "Laktose",
+                "Warmspeise",
+                "Menü B",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wildfleischlaibchen im Weizenfladen",
+              "tags": [
+                "Obst",
+                "Erdäpfel",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Fisch",
+                "Süß",
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Zweierlei vom Rind mit Rote-Rüben-Knödeln",
+              "tags": [
+                "Erdäpfel",
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Fisch",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Glutenfreie Palatschinken vom Blech",
+              "tags": [
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wildragout mit Eierschwammerln",
+              "tags": [
+                "Süß",
+                "Warmspeise",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Weiße Rübensuppe mit gerösteten Haselnüssen",
+              "tags": [
+                "Fleisch",
+                "Gesund",
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokolierte Gundelrebenblättchen",
+              "tags": [
+                "Laktose",
+                "Fisch",
+                "Süß",
+                "Menü B",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Fleisch",
+                "Menü C",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Fleisch",
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wildfleischlaibchen im Weizenfladen",
+              "tags": [
+                "Warmspeise",
+                "Erdäpfel",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Erdäpfel",
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-01-30",
+        "endDate": "2023-02-03"
+      },
+      {
+        "_id": 12,
+        "createdBy": 17,
+        "approvedBy": 1,
+        "state": "published",
+        "days": {
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Kaltspeise",
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Kalbsbraten",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Kaiserschmarren mit Karamellnüssen",
+              "tags": [
+                "Fisch",
+                "Erdäpfel",
+                "Gesund",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Rotweinwachteln",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Marzipanschnitten",
+              "tags": [
+                "Obst",
+                "Fisch",
+                "Menü B",
+                "Nachspeise"
+              ]
+            }
+          ],
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Gesund",
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Gesund",
+                "Erdäpfel",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Ingwer-Karottensuppe mit Honig",
+              "tags": [
+                "Süß",
+                "Fisch",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Fleisch",
+                "Erdäpfel",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Süß",
+                "Fleisch",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Glutenfreie Palatschinken vom Blech",
+              "tags": [
+                "Erdäpfel",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Rosa gebratener Rehrücken mit Rote-Rüben-Risotto",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erbsen-Spargel-Suppe",
+              "tags": [
+                "Süß",
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokolierte Gundelrebenblättchen",
+              "tags": [
+                "Erdäpfel",
+                "Gesund",
+                "Menü B",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-02-06",
+        "endDate": "2023-02-10"
+      },
+      {
+        "_id": 13,
+        "createdBy": 9,
+        "approvedBy": 6,
+        "state": "published",
+        "days": {
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Süß",
+                "Fisch",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Ingwer-Karottensuppe mit Honig",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Grießflammeri mit Holundererdbeeren",
+              "tags": [
+                "Süß",
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Kalbsbraten",
+              "tags": [
+                "Laktose",
+                "Obst",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Cupcakes mit Himbeer-Curd",
+              "tags": [
+                "Erdäpfel",
+                "Fisch",
+                "Menü B",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Kalbsbraten",
+              "tags": [
+                "Süß",
+                "Laktose",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Weiße Rübensuppe mit gerösteten Haselnüssen",
+              "tags": [
+                "Gesund",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Fisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Kaltspeise",
+                "Süß",
+                "Obst",
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Laktose",
+                "Fisch",
+                "Warmspeise",
+                "Menü C",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-02-13",
+        "endDate": "2023-02-17"
+      },
+      {
+        "_id": 14,
+        "createdBy": 9,
+        "approvedBy": 0,
+        "state": "published",
+        "days": {
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Geschmorter Rehbraten mit Hanfschupfnudeln",
+              "tags": [
+                "Warmspeise",
+                "Fisch",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Obst",
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Erdbeer-Rhabarber-Kuchen",
+              "tags": [
+                "Gesund",
+                "Fisch",
+                "Erdäpfel",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erbsen-Spargel-Suppe",
+              "tags": [
+                "Erdäpfel",
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokoroulade",
+              "tags": [
+                "Fisch",
+                "Laktose",
+                "Gesund",
+                "Menü B",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Menü C",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Erdäpfel",
+                "Gesund",
+                "Menü C",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Gebackenes Eis auf Beerenragout",
+              "tags": [
+                "Süß",
+                "Warmspeise",
+                "Gesund",
+                "Menü C",
+                "Nachspeise"
+              ]
+            }
+          ],
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Rotweinwachteln",
+              "tags": [
+                "Fisch",
+                "Gesund",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Süß",
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Wildragout mit Eierschwammerln",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Weiße Rübensuppe mit gerösteten Haselnüssen",
+              "tags": [
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Kaltspeise",
+                "Fisch",
+                "Menü C",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Laktose",
+                "Erdäpfel",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Rosa gebratener Rehrücken mit Rote-Rüben-Risotto",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokolierte Gundelrebenblättchen",
+              "tags": [
+                "Erdäpfel",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Rotweinwachteln",
+              "tags": [
+                "Fisch",
+                "Obst",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Cupcakes mit Himbeer-Curd",
+              "tags": [
+                "Menü B",
+                "Nachspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-02-20",
+        "endDate": "2023-02-24"
+      },
+      {
+        "_id": 15,
+        "createdBy": 9,
+        "approvedBy": 18,
+        "state": "published",
+        "days": {
+          "Donnerstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Erdäpfel",
+                "Kaltspeise",
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Warmspeise",
+                "Fisch",
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rahm-Kren-Suppe",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Kaiserschmarren mit Karamellnüssen",
+              "tags": [
+                "Erdäpfel",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Gebratenes Karpfenfilet auf Goldrübenpüree",
+              "tags": [
+                "Fleisch",
+                "Kaltspeise",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Obst",
+                "Fisch",
+                "Laktose",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Laktose",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Erdbeer-Rhabarber-Kuchen",
+              "tags": [
+                "Gesund",
+                "Obst",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Laktose",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erdäpfel-Vogerlsalat-Suppe",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Kaltspeise",
+                "Erdäpfel",
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Obst",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Laktose",
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Laktose",
+                "Gesund",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Erdäpfel",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erbsen-Spargel-Suppe",
+              "tags": [
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Erdäpfel",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-02-27",
+        "endDate": "2023-03-03"
+      },
+      {
+        "_id": 16,
+        "createdBy": 4,
+        "approvedBy": 17,
+        "state": "published",
+        "days": {
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Kaltspeise",
+                "Gesund",
+                "Erdäpfel",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Fisch",
+                "Warmspeise",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Fisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Kaltspeise",
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Rosa gebratener Rehrücken mit Rote-Rüben-Risotto",
+              "tags": [
+                "Kaltspeise",
+                "Warmspeise",
+                "Menü C",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Obst",
+                "Laktose",
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Gebratenes Karpfenfilet auf Goldrübenpüree",
+              "tags": [
+                "Fisch",
+                "Süß",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Fisch",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Kaiserschmarren mit Karamellnüssen",
+              "tags": [
+                "Gesund",
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rahm-Kren-Suppe",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Fisch",
+                "Laktose",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Ingwer-Karottensuppe mit Honig",
+              "tags": [
+                "Obst",
+                "Gesund",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Gebackenes Eis auf Beerenragout",
+              "tags": [
+                "Fisch",
+                "Kaltspeise",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Gebratenes Karpfenfilet auf Goldrübenpüree",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Laktose",
+                "Fisch",
+                "Menü B",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Deftiger Erdäpfeleintopf",
+              "tags": [
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-03-06",
+        "endDate": "2023-03-10"
+      },
+      {
+        "_id": 17,
+        "createdBy": 3,
+        "approvedBy": 1,
+        "state": "published",
+        "days": {
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Erdäpfel",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erdäpfel-Vogerlsalat-Suppe",
+              "tags": [
+                "Kaltspeise",
+                "Süß",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokolierte Gundelrebenblättchen",
+              "tags": [
+                "Fleisch",
+                "Kaltspeise",
+                "Süß",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Kalbsbraten",
+              "tags": [
+                "Fleisch",
+                "Gesund",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Donnerstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Ingwer-Karottensuppe mit Honig",
+              "tags": [
+                "Warmspeise",
+                "Süß",
+                "Obst",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Geschmorter Rehbraten mit Hanfschupfnudeln",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Kaltspeise",
+                "Menü B",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Fleisch",
+                "Fisch",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Cupcakes mit Himbeer-Curd",
+              "tags": [
+                "Fisch",
+                "Erdäpfel",
+                "Menü A",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Rosa gebratener Rehrücken mit Rote-Rüben-Risotto",
+              "tags": [
+                "Gesund",
+                "Fleisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Pikante Weißkrautsuppe",
+              "tags": [
+                "Erdäpfel",
+                "Warmspeise",
+                "Fisch",
+                "Menü B",
+                "Vorspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-03-13",
+        "endDate": "2023-03-17"
+      },
+      {
+        "_id": 18,
+        "createdBy": 9,
+        "approvedBy": 15,
+        "state": "published",
+        "days": {
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "NY-Club-Sandwich",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Kaltspeise",
+                "Erdäpfel",
+                "Menü A",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Schokolierte Gundelrebenblättchen",
+              "tags": [
+                "Erdäpfel",
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Freitag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Fleisch",
+                "Obst",
+                "Fisch",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wildfleischlaibchen im Weizenfladen",
+              "tags": [
+                "Gesund",
+                "Fisch",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Gesund",
+                "Fleisch",
+                "Fisch",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Reindling vom Hochschwabröster",
+              "tags": [
+                "Warmspeise",
+                "Fleisch",
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Marzipanschnitten",
+              "tags": [
+                "Menü B",
+                "Nachspeise"
+              ]
+            }
+          ],
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Winterliche Gemüsesuppe",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Pink-Panna-cotta auf Vanillecreme",
+              "tags": [
+                "Laktose",
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wildfleischlaibchen im Weizenfladen",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Schokolierte Gundelrebenblättchen",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Laktose",
+                "Fleisch",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-03-20",
+        "endDate": "2023-03-24"
+      },
+      {
+        "_id": 19,
+        "createdBy": 2,
+        "approvedBy": 19,
+        "state": "published",
+        "days": {
+          "Montag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnernuggets mit Cornflakespanade",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Knoblauch-Parmesan-Suppe",
+              "tags": [
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Marzipanschnitten",
+              "tags": [
+                "Warmspeise",
+                "Fisch",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wirsingrouladen mit Bulgurfülle",
+              "tags": [
+                "Fisch",
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Weiße Rübensuppe mit gerösteten Haselnüssen",
+              "tags": [
+                "Fisch",
+                "Gesund",
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Wildragout mit Eierschwammerln",
+              "tags": [
+                "Warmspeise",
+                "Erdäpfel",
+                "Süß",
+                "Menü C",
+                "Hauptspeise"
+              ]
+            }
+          ],
+          "Dienstag": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Erdäpfel",
+                "Fleisch",
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Schweinsfilet mit Waldhonig-Pfeffermarinade",
+              "tags": [
+                "Laktose",
+                "Erdäpfel",
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Rote-Rüben-Suppe",
+              "tags": [
+                "Obst",
+                "Warmspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Grießflammeri mit Holundererdbeeren",
+              "tags": [
+                "Erdäpfel",
+                "Warmspeise",
+                "Kaltspeise",
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Lachsforellenfilet in Honig-Senf-Sauce",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Erbsen-Spargel-Suppe",
+              "tags": [
+                "Erdäpfel",
+                "Menü B",
+                "Vorspeise"
+              ]
+            }
+          ],
+          "Mittwoch": [
+            {
+              "name": "Salatbuffet",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Salat"
+              ]
+            },
+            {
+              "name": "Hühnerbrust mit Apfel-Topfen-Fülle",
+              "tags": [
+                "Menü A",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Ingwer-Karottensuppe mit Honig",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Topfenstrudel mit Osterbrot und Vanillesauce",
+              "tags": [
+                "Menü A",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            },
+            {
+              "name": "Wildfleischlaibchen im Weizenfladen",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Hauptspeise"
+              ]
+            },
+            {
+              "name": "Crème Vichyssoise",
+              "tags": [
+                "Menü B",
+                "Vegetarisch",
+                "Vorspeise"
+              ]
+            },
+            {
+              "name": "Kaiserschmarren mit Karamellnüssen",
+              "tags": [
+                "Laktose",
+                "Menü B",
+                "Vegetarisch",
+                "Nachspeise"
+              ]
+            }
+          ]
+        },
+        "startDate": "2023-03-27",
+        "endDate": "2023-03-31"
+      }
+    ]
+}

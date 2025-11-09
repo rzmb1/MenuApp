@@ -1,0 +1,17 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "ignorePatterns": ["_clients", "coverage", "docs", "tests","test-data","tests-mocha"],
+    "rules": {
+        "no-unused-vars": ["error", { "args": "none" }],
+        "no-console":["error"]
+    }
+}
+ 

@@ -1,0 +1,5 @@
+node_modules
+_clients/react-client/mock/db-copy.json
+.nyc_output
+test-results.xml
+coverage

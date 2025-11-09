@@ -1,0 +1,165 @@
+variables:
+  APP_IMAGE_NAME: ${ACR_NAME}/5ahif/team-a/backend:${CI_COMMIT_REF_SLUG}
+  K8S_NAMESPACE: 5a-team-a-${CI_PIPELINE_ID}
+
+stages:
+  - buildAndTest
+  - analyze
+  - package
+  - deployment
+
+buildAndTestBackend:
+  stage: buildAndTest
+  image: node:18
+  services:
+    - name: mongo:7
+      alias: testDB # mongodb://testDB:27017/test-database
+  variables:
+    MONGODB_CONNECTION_STRING: "mongodb://testDB:27017/kantine2022"
+  script:
+    - echo "Hello World"
+    - node --version
+    - pwd
+    - ls -la
+    - npm ci
+    - npm run test-ci
+
+  coverage: '/^Statements\s*:\s*([^%]+)/'
+
+  artifacts:
+    when: always
+    reports:
+      junit: test-results.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage/cobertura-coverage.xml
+
+buildAndTestFrontend:
+  stage: buildAndTest
+  image: node:18
+  script:
+    - echo "Building Frontend"
+    - node --version
+    - cd _clients/react-client
+    - pwd
+    - ls -la
+    - npm ci
+    - npm run build
+  artifacts:
+    paths:
+      - _clients/react-client/build
+
+analyzeBackend:
+  stage: analyze
+  image: node:18
+  script:
+    - npm ci
+    - npm run lint
+  artifacts:
+    when: always
+    reports:
+      codequality: gl-codequalitiy.json
+
+buildImage:
+  stage: package
+  # run job with image that contains docker command line tool
+  image: docker:stable
+  services:
+    # starts docker deamon in background
+    - name: docker:dind
+  variables:
+    TRIVY_NO_PROGRESS: "true"
+    TRIVY_CACHE_DIR: ".trivycache/" 
+  script:
+    - docker build -t $APP_IMAGE_NAME .
+
+      # container image scanning
+
+    # 1) install trivy
+    - wget --no-verbose https://github.com/aquasecurity/trivy/releases/download/v0.48.3/trivy_0.48.3_Linux-64bit.tar.gz -O - | tar -zxvf -
+    # 2) build report for GitLab
+    - ./trivy image --scanners vuln --exit-code 0 --format template --template "@contrib/gitlab.tpl" -o gl-container-scanning-report.json $APP_IMAGE_NAME
+    # 3) build report and print in console
+    - ./trivy image --scanners vuln --exit-code 0 $APP_IMAGE_NAME
+    # 4) fail pipeline on high and critical vulnerabilities (but will not result in a GitLab vulnerability report)
+    - ./trivy image --scanners vuln --exit-code 1 --severity HIGH,CRITICAL $APP_IMAGE_NAME
+
+    - docker login $ACR_NAME -u $ACR_USER -p $ACR_PWD
+    - docker push $APP_IMAGE_NAME
+  cache:
+    paths:
+      - .trivycache/
+  artifacts:
+    reports:
+      container_scanning: gl-container-scanning-report.json  
+
+# Shared macro (reusable component)
+# Retrieves cluster configuration (keys, certificates, endpoints...) from environment
+# variables - those are set on GitLab group level and are inherited to your project
+.k8sSetup: &k8sSetup
+  - echo install
+  - echo "${K8S_CLIENT_KEY}" | base64 -d >client-key-data.pem
+  - echo "${K8S_CA}" | base64 -d >certificate-authority-data.pem
+  - echo "${K8S_CLIENT_CERT}" | base64 -d >client-certificate-data.pem
+  - kubectl config set-cluster k8s-aks-cluster --embed-certs=true --server=${K8S_SERVER} --certificate-authority=certificate-authority-data.pem
+  - kubectl config set-credentials k8s-aks-user --embed-certs=true --client-certificate=client-certificate-data.pem --client-key=client-key-data.pem --token=${K8S_TOKEN}
+
+  - kubectl config set-context k8s-aks --cluster=k8s-aks-cluster --user=k8s-aks-user
+  - kubectl config use-context k8s-aks  
+
+# simplified deployment into AKS cluster
+deployApp:
+  stage: deployment
+  image: dtzar/helm-kubectl
+  script:
+      # get configuration by using macro
+    - *k8sSetup
+
+      # run kubectl command to check if cluster configuration is correct (otherwise this will fail)
+    - kubectl get nodes
+    
+      # replace all occurences in yml-files with values of environment variable (simple templating)
+    - cd k8s
+    - sed -i "s#<CI_PIPELINE_ID>#${CI_PIPELINE_ID}#g" gitlab-app-deployment.yml
+    - sed -i "s#<APP_IMAGE_NAME>#${APP_IMAGE_NAME}#g" gitlab-app-deployment.yml
+    - sed -i "s#<APP_IMAGE_NAME>#${APP_IMAGE_NAME}#g" gitlab-app-filldemodata.yml
+    - cat gitlab-app-deployment.yml
+    - cat gitlab-app-filldemodata.yml
+
+      # create namespace and apply to cluster
+    - kubectl create namespace ${K8S_NAMESPACE}
+    - kubectl config set-context --current --namespace=${K8S_NAMESPACE}
+
+      # create secret containing ACR credentials
+    - kubectl create secret docker-registry htldevzone-credentials --docker-server="${ACR_NAME}" --docker-username="${ACR_USER}" --docker-password="${ACR_PWD}"
+
+      # patch service account to use ACR credentials
+    - kubectl patch serviceaccount default -p "{\"imagePullSecrets\":[{\"name\":\"htldevzone-credentials\"}]}"
+
+    - kubectl apply -f gitlab-app-deployment.yml
+    - kubectl apply -f gitlab-app-filldemodata.yml
+
+  when: manual
+  dependencies: []
+  # this is the environment created - CI_COMMIT_REF_SLUG is resolved as branch name
+  # so potentially every feature branch has its own deployment for demonstration purposes
+  environment:
+    name: $CI_COMMIT_REF_SLUG
+    url: http://app-$CI_PIPELINE_ID.k8s.htl-dev.zone
+    on_stop: undeployApp
+    auto_stop_in: 1 day
+
+# undeploy from cluster and cleanup the GitLab environment
+undeployApp:
+  stage: deployment
+  image: dtzar/helm-kubectl
+  script:
+    - *k8sSetup
+    - kubectl get nodes
+    - kubectl delete all,ingress --all -n ${K8S_NAMESPACE} --wait=true
+    - kubectl delete namespace ${K8S_NAMESPACE}    
+  environment:
+    name: $CI_COMMIT_REF_SLUG
+    action: stop
+  when: manual
+  dependencies: []

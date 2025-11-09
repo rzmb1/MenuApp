@@ -1,0 +1,63 @@
+# UseCase Diagram
+
+`responsible: Thomas Fischer`
+
+```plantuml
+left to right direction
+
+rectangle Menüplan {
+    usecase "Menüplan wird erstellt"
+    usecase "Menüplan wird geändert"
+    usecase "Menüplan wird verworfen"
+    usecase "Menüplan wird freigegeben"
+    usecase "Menüplan wird veröffentlicht"
+    usecase "Menüplan wird angezeigt"
+}
+
+rectangle Benutzeroptionen {
+    usecase "Beim Essen anmelden"
+    usecase "Beim Essen ummelden"
+    usecase "Beim Essen abmelden"
+}
+
+rectangle Datenmanagement {
+    usecase "Statistik wird angezeigt"
+    usecase "Daten zur Essensausgabe werden eingetragen"
+    usecase "Zwischenfälle werden aus Statistik entfernt"
+}
+
+rectangle Accountoptionen {
+    usecase "Kunde registriert sich"
+    usecase "Benutzer loggt sich ein"
+    usecase "Benutzer loggt sich aus"
+    usecase "Benutzer ändert Passwort"
+    usecase "Kunde wird deaktiviert"
+}
+
+(Beim Essen anmelden) ..> (Menüplan wird angezeigt) : extends
+(Beim Essen ummelden) ..> (Menüplan wird angezeigt) : extends
+(Beim Essen abmelden) ..> (Menüplan wird angezeigt) : extends
+(Zwischenfälle werden aus Statistik entfernt) .> (Daten zur Essensausgabe werden eingetragen) : extends
+:Koch: <|-up- :Küchenchef:
+
+:Küchenchef: - (Menüplan wird erstellt)
+:Küchenchef: - (Menüplan wird geändert)
+:Küchenchef: - (Menüplan wird verworfen)
+:Küchenchef: - (Menüplan wird freigegeben)
+:Küchenchef: - (Menüplan wird veröffentlicht)
+(Menüplan wird angezeigt) - :Koch:
+(Menüplan wird angezeigt) - :Kunde:
+:Kunde: -- (Beim Essen anmelden)
+:Kunde: -- (Beim Essen ummelden)
+:Kunde: -- (Beim Essen abmelden)
+:Kunde: -- (Kunde registriert sich)
+:Verwaltung: -- (Kunde registriert sich)
+:Verwaltung: -- (Kunde wird deaktiviert)
+(Kunde wird deaktiviert) - :Kunde:
+:Kunde: -- (Benutzer loggt sich ein)
+:Kunde: -- (Benutzer loggt sich aus)
+:Kunde: -- (Benutzer ändert Passwort)
+:Koch: -- (Daten zur Essensausgabe werden eingetragen)
+(Statistik wird angezeigt) - :Koch:
+:Koch: -- (Zwischenfälle werden aus Statistik entfernt)
+```

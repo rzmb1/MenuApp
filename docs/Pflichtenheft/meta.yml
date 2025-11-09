@@ -1,0 +1,11 @@
+---
+title: 'Pflichtenheft - TeamC'
+author: [Fischer Thomas, Reimüller Felix, Zambelli Rubens]
+titlepage: 'true'
+code-block-font-size: '\small'
+toc-own-page: true
+listings-no-page-break: false
+footer-left: 'SYP 2022/23'
+lang: 'de-AT'
+colorlinks: true
+---

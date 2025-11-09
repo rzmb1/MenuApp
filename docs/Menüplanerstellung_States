@@ -1,0 +1,15 @@
+@startuml
+hide empty description
+[*] --> draft
+draft --> inReview
+inReview --> approved
+inReview --> draft
+approved --> published
+published --> [*]
+
+draft --> cancelled
+inReview --> cancelled
+published --> cancelled
+approved --> cancelled
+cancelled --> [*]
+@enduml

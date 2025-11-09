@@ -1,0 +1,59 @@
+@startuml Kantine
+left to right direction
+
+rectangle Menüplan {
+    usecase "Menüplan wird eingetragen"
+    usecase "Menüplan wird geändert"
+    usecase "Menüplan wird verworfen"
+    usecase "Menüplan wird freigegeben"
+    usecase "Menüplan wird angezeigt"
+}
+
+rectangle Schüler_und_Lehrer_Aktionen {
+    usecase "Schüler tragen sich beim essen ein"
+    usecase "Schüler tragen sich beim essen um"
+    usecase "Schüler tragen sich vom essen ab"
+    usecase "Schüler registrieren sich"
+    usecase "Schüler loggen sich ein"
+    usecase "Schüler loggen sich aus"
+    usecase "Schüler ändern Passwort"
+}
+
+rectangle Anzeige_und_Management_von_Daten {
+    usecase "Abgemeldete Schüler werden im System als solche markiert"
+    usecase "Voraussichtlich erscheinende Schüler für das Essen werden angezeigt"
+    usecase "Statistik zur Essensausgabe wird angezeigt"
+    usecase "Tatsächliche Essensausgabe wird eingetragen"
+    usecase "Zwischenfälle werden aus der Statistik entfernt"
+}
+
+(Schüler registrieren sich) .> (Schüler ändern Passwort) : include
+(Schüler tragen sich beim essen ein) ..> (Menüplan wird angezeigt) : extends
+(Schüler tragen sich beim essen um) ..> (Menüplan wird angezeigt) : extends
+(Schüler tragen sich vom essen ab) ..> (Menüplan wird angezeigt) : extends
+(Zwischenfälle werden aus der Statistik entfernt) .> (Tatsächliche Essensausgabe wird eingetragen) : extends
+:Koch: <|-- :Küchenchef:
+
+:Küchenchef: -> (Menüplan wird eingetragen)
+:Küchenchef: -> (Menüplan wird geändert)
+:Küchenchef: -> (Menüplan wird verworfen)
+:Küchenchef: -> (Menüplan wird freigegeben)
+(Menüplan wird angezeigt) -> :Koch:
+(Menüplan wird angezeigt) -> :Schüler:
+:Schüler: -up-> (Schüler tragen sich beim essen ein)
+:Schüler: -up-> (Schüler tragen sich beim essen um)
+:Schüler: -up-> (Schüler tragen sich vom essen ab)
+(Voraussichtlich erscheinende Schüler für das Essen werden angezeigt) <- :Koch:
+:Schüler: -up-> (Schüler registrieren sich)
+:Sekreteriat: -up-> (Schüler registrieren sich)
+:Sekreteriat: -up-> (Abgemeldete Schüler werden im System als solche markiert)
+(Abgemeldete Schüler werden im System als solche markiert) -> :Schüler:
+:Schüler: -up-> (Schüler loggen sich ein)
+:Schüler: -up-> (Schüler loggen sich aus)
+:Schüler: -up-> (Schüler ändern Passwort)
+:Koch: --> (Tatsächliche Essensausgabe wird eingetragen)
+(Statistik zur Essensausgabe wird angezeigt) <- :Koch:
+:Koch: --> (Zwischenfälle werden aus der Statistik entfernt)
+
+
+@enduml

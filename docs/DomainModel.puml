@@ -1,0 +1,55 @@
+@startuml Domainmodel
+
+class Benutzer
+{
+    Vorname 
+    Nachname
+    Email
+    Passwort
+}
+
+class Küchenchef
+{
+
+}
+
+class Koch
+{
+
+}
+
+class Gericht
+{
+    Name
+    Vegitarisch
+    Allergene
+    Beschreibung
+    Gang
+}
+
+class Menüplan
+{
+    Zeitraum
+}
+
+class Statistik
+{
+    Daten zur Essensausgabe
+}
+
+class Verwaltung 
+{
+
+}
+
+Benutzer <|-- Verwaltung
+Benutzer <|-- Kunde
+Benutzer <|-- Koch
+Koch <|-- Küchenchef 
+Küchenchef ..> Menüplan : erstellt, löscht, ändert,gibt frei
+Koch ..> Statistik : Trägt Daten ein
+Verwaltung ..> Benutzer : registriert
+Menüplan "1" *-- "1..*" Gericht  
+Kunde "1" -- "1..*" Gericht : eingetragen für
+
+@enduml
